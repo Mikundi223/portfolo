@@ -1,0 +1,44 @@
+#pojemnik {width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            height: auto;}
+body {margin: 0;
+        padding: 0;
+        background-color: rgb(209,166,96);}
+#pojemnik > #naglowek {width: 100%;
+                     height: auto;
+                     background-image: linear-gradient(70deg, white, rgb(164,153,91));}
+img {width: 80%;
+    position: relative;
+    left: 10%;
+    top: -2em;}
+#menuglowne {list-style: none;
+            text-align: center;
+            padding-bottom: 30px;}
+#menuglowne li {display: inline;
+                margin: 30px;}
+li a {text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 1.2em;}
+h1, h2 {text-align: center;
+        font-family: 'Kaufmann BT',cursive;
+        font-size: 100px;
+        color: saddlebrown;}
+h1 {position: relative;
+    top 60px;}
+#tresc {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#tresc > h3, #tresc > p {margin-top: 50px;
+                        margin-left: 100px;
+                        line-height: 2em;}
+#stopka {width: auto;
+        height: auto;
+        font-size: 15px;
+        color: red;
+        text-align: right;
+        margin: 10px;
+        }

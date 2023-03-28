@@ -1,0 +1,26 @@
+li {list-style: none;
+    width: 80px;
+    background-color: blueviolet;
+    text-align: center;
+    border:1px inset grey;
+    margin: 8px;
+    padding: 5px;}
+
+a {text-decoration: none;
+    color: white;}
+
+a:hover {color: deeppink;}
+
+#one > li {display: inline;}
+
+#two, #trzy {display: none;}
+
+#one > li:hover #two {display: inline-block;
+                        position: absolute;
+                        top:35px;
+                        left:84px;}
+#two> li:hover #trzy {display: inline-block;
+                        position: absolute;
+                        top:0px;
+                        left:100px;
+                        color: white;}
